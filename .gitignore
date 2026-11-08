@@ -1,0 +1,15 @@
+# KiCad lock and backup files
+*.lck
+*.bak
+*-backups/
+.history/
+
+# STM32CubeIDE / Eclipse Workspace
+firmware/.metadata/
+Debug/
+Release/
+*.launch
+
+# OS Generated Files
+.DS_Store
+Thumbs.db

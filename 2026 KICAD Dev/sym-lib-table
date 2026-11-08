@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "STM32C552MET6") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ul_STM32C552MET6/KiCADv6/2026-10-30_00-04-55.kicad_sym") (options "") (descr ""))
+	(lib (name "Custom_Power_Symbol_Lib1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Custom_Power_Symbol/Custom_Power_Symbol_Lib.kicad_sym") (options "") (descr ""))
+)
