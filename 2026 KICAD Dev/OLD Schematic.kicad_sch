@@ -8055,6 +8055,19 @@
 		)
 		(uuid "1a20db67-fee2-4ac4-b77b-8822545a870d")
 	)
+	(text "OLD SCHEMATIC - NOT USED"
+		(exclude_from_sim no)
+		(at 349.25 134.62 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "16dac28e-6b62-4316-a8a8-cee7d2d28c58")
+	)
 	(text "DUAL VFD"
 		(exclude_from_sim no)
 		(at 291.465 113.03 0)

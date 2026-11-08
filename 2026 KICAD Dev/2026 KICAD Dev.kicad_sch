@@ -4711,7 +4711,7 @@
 		)
 		(uuid "3a2c8efb-4bc2-4171-b535-a8841da98414")
 	)
-	(text "Label Convention:\n\nINT - 			Isolated Internal signal or enable that is \n				manipulated/read only on the PCB. Would generally \n				be on the 3.3V side of the circuit.\n\nEXT - 			Non-Isolated External signal or enable that is \n				manipulated/read on the field side. Would generally \n				be on the 24V side of the circuit.\n\nStatus Signal -	Binary (High/Low) signal entering into the \n				microprocessor/PCB/ext.\n\n					example - light lens has 24v going through all light \n					lens and if they are all good then a 24 v signal goes \n					back to microprocessor as an input. Hence the name \n					\"LIGHT LENS STATUS\"\n\nSignal - 		Continuous (analog/pwm/ext.) signal entering into the \n				microprocessor/PCB/ext.\n\n					example - Pressure transmitter is being read by the \n					microprocessor and can read pressure from 0 to 1\" \n					watercolumn. Hence the name \n					\"PRESSURE TRANSMITTER SIGNAL\"\n\nEnable - 		signal exiting the microprocessor\n\n					example - VFD RUN signal is sent out of the microprocessor\n					which goes to the mosfet which send signal to vfd to \n					run. Hence the name \n					\"VFD RUN ENABLE\""
+	(text "Label Convention:\n\nINT - 			Isolated Internal signal or enable that is \n				manipulated/read only on the PCB. Would generally \n				be on the 3.3V side of the circuit.\n\nEXT - 			Non-Isolated External signal or enable that is \n				manipulated/read on the field side. Would generally \n				be on the 24V side of the circuit.\n\nStatus Signal -	Binary (High/Low) signal entering into the \n				microprocessor/PCB/ext.\n\n					example - light lens has 24v going through all light \n					lens and if they are all good then a 24 v signal goes \n					back to microprocessor as an input. Hence the name \n					\"LIGHT LENS STATUS\"\n\nSignal - 		Continuous (analog/pwm/ext.) signal entering into the \n				microprocessor/PCB/ext.\n\n					example - Pressure transmitter is being read by the \n					microprocessor and can read pressure from 0 to 1\" \n					watercolumn. Hence the name \n					\"PRESSURE TRANSMITTER SIGNAL\"\n\n3 GROUNDS AND DESCRIBE EACH BRIAN\n\nCAN SWITCHES BE 3.3V AND INTERNAL STUFF\n\nEnable - 		signal exiting the microprocessor\n\n					example - VFD RUN signal is sent out of the microprocessor\n					which goes to the mosfet which send signal to vfd to \n					run. Hence the name \n					\"VFD RUN ENABLE\""
 		(exclude_from_sim no)
 		(at 195.58 17.78 0)
 		(effects
@@ -4765,7 +4765,7 @@
 		)
 		(uuid "5b914c19-5087-43bd-8f5d-a08ad2240bc7")
 	)
-	(text "SOLENOIDS (QTY: 3-7)"
+	(text "SOLENOIDS (QTY: 3-8)"
 		(exclude_from_sim no)
 		(at 358.394 57.912 0)
 		(effects
@@ -4846,6 +4846,16 @@
 			)
 		)
 		(uuid "851b5dea-5629-4809-92cb-87f787414579")
+	)
+	(text "EXCLUDE FROM BOM, SIMULATION, EXT."
+		(exclude_from_sim no)
+		(at 19.05 -1.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a01a37a-5423-4a75-9b81-2e686de892d9")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -5977,7 +5987,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 140.97) (xy 280.67 147.32)
+			(xy 292.1 140.97) (xy 280.67 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6077,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 36.83) (xy 300.99 36.83)
+			(xy 292.1 36.83) (xy 300.99 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6897,7 +6907,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 36.83) (xy 289.56 140.97)
+			(xy 292.1 36.83) (xy 292.1 140.97)
 		)
 		(stroke
 			(width 0)
@@ -48953,6 +48963,25 @@
 			)
 		)
 	)
+	(rule_area
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(polyline
+			(pts
+				(xy 431.8 0) (xy 0 0) (xy 0 279.4) (xy 431.8 279.4)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0cf8636b-0d4b-493d-b203-2708d7f21401")
+		)
+	)
 	(symbol
 		(lib_id "Switch:SW_Push_Open")
 		(at 128.27 222.25 0)
@@ -52223,13 +52252,13 @@
 	(sheet
 		(at 203.2 241.3)
 		(size 77.47 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0)
 			(type solid)
 		)
 		(fill
