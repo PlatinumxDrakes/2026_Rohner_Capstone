@@ -5012,7 +5012,7 @@
 		)
 		(uuid "ef3a1781-5833-489c-bf60-40afe3082e03")
 	)
-	(text "BLOCK DIAGRAM FOR TIMER BOARD"
+	(text "BLOCK DIAGRAM FOR TIMER BOARD test 2"
 		(exclude_from_sim no)
 		(at 60.96 254 0)
 		(effects
