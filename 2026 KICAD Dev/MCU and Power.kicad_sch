@@ -9592,7 +9592,7 @@
 			)
 		)
 	)
-	(global_label "DPS SIGNAL"
+	(global_label "DPS INT SIGNAL"
 		(shape input)
 		(at 134.62 163.83 270)
 		(fields_autoplaced yes)
@@ -9604,7 +9604,7 @@
 		)
 		(uuid "0ec2d461-6326-4228-a09c-bcdf365b8740")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 178.0638 90)
+			(at 134.62 181.9343 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9616,7 +9616,7 @@
 			)
 		)
 	)
-	(global_label "RESET BUTTON SIGNAL"
+	(global_label "RESET BUTTON INT STATUS"
 		(shape input)
 		(at 118.11 69.85 0)
 		(fields_autoplaced yes)
@@ -9628,7 +9628,7 @@
 		)
 		(uuid "0f0f1f0c-0053-4207-99f9-d953a9b7a736")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5037 69.85 0)
+			(at 146.616 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9640,7 +9640,7 @@
 			)
 		)
 	)
-	(global_label "RESET BUTTON SIGNAL"
+	(global_label "RESET BUTTON INT STATUS"
 		(shape input)
 		(at 88.9 163.83 270)
 		(fields_autoplaced yes)
@@ -9652,7 +9652,7 @@
 		)
 		(uuid "1279ae0c-4642-4546-8141-79e80e1af8ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 188.2237 90)
+			(at 88.9 192.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9664,7 +9664,7 @@
 			)
 		)
 	)
-	(global_label "LIGHT LENS SIGNAL"
+	(global_label "LIGHT LENS INT STATUS"
 		(shape input)
 		(at 111.76 163.83 270)
 		(fields_autoplaced yes)
@@ -9676,7 +9676,7 @@
 		)
 		(uuid "1af08264-5541-4330-878c-60e43c095d8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 185.2 90)
+			(at 111.76 189.3123 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,7 +9712,7 @@
 			)
 		)
 	)
-	(global_label "MANUAL SWITCH SIGNAL"
+	(global_label "MANUAL SWITCH INT STATUS"
 		(shape input)
 		(at 118.11 100.33 0)
 		(fields_autoplaced yes)
@@ -9724,7 +9724,7 @@
 		)
 		(uuid "1dfec2f2-63bd-43f6-9734-385909e96a02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.7134 100.33 0)
+			(at 147.8257 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9736,7 +9736,7 @@
 			)
 		)
 	)
-	(global_label "VFD RUNNING SIGNAL"
+	(global_label "VFD RUNNING INT STATUS"
 		(shape input)
 		(at 118.11 97.79 0)
 		(fields_autoplaced yes)
@@ -9748,31 +9748,7 @@
 		)
 		(uuid "1e04d143-e30f-4d0f-b66b-0ec3d6e3eaf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.4759 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SOL9 ENABLE"
-		(shape input)
-		(at 118.11 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2dbd7c0e-358a-4d80-ad52-526beeb87eb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.8556 41.91 0)
+			(at 145.5882 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9832,7 +9808,7 @@
 			)
 		)
 	)
-	(global_label "SOL4 ENABLE"
+	(global_label "SOL4 INT ENABLE"
 		(shape input)
 		(at 46.99 54.61 180)
 		(fields_autoplaced yes)
@@ -9844,7 +9820,7 @@
 		)
 		(uuid "43862099-87dc-4b85-9e6f-61cef69fb32c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.2444 54.61 0)
+			(at 27.3739 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,7 +9832,7 @@
 			)
 		)
 	)
-	(global_label "VFD RUNNING SIGNAL"
+	(global_label "VFD RUNNING INT STATUS"
 		(shape input)
 		(at 104.14 163.83 270)
 		(fields_autoplaced yes)
@@ -9868,7 +9844,7 @@
 		)
 		(uuid "527aab17-8dc3-4deb-a95b-8c764187983f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 187.1959 90)
+			(at 104.14 191.3082 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9904,7 +9880,7 @@
 			)
 		)
 	)
-	(global_label "SPRAY AIR INTERLOCK SIGNAL"
+	(global_label "SPRAY AIR INTERLOCK INT STATUS"
 		(shape input)
 		(at 46.99 95.25 180)
 		(fields_autoplaced yes)
@@ -9916,7 +9892,7 @@
 		)
 		(uuid "60df8d20-0b39-42cd-82e7-4f6ca819273b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.4599 95.25 0)
+			(at 11.3476 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9928,7 +9904,7 @@
 			)
 		)
 	)
-	(global_label "AUTO SWITCH SIGNAL"
+	(global_label "AUTO SWITCH INT STATUS"
 		(shape input)
 		(at 46.99 57.15 180)
 		(fields_autoplaced yes)
@@ -9940,7 +9916,7 @@
 		)
 		(uuid "654ec117-d185-4b71-9308-c0d0439f0d37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.9871 57.15 0)
+			(at 19.8748 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9973,54 +9949,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "VFD 3 RUN ENABLE"
-		(shape input)
-		(at 46.99 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d7e54bb-ad8c-441f-9e7c-f6075d3be424")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4991 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SAS 2 ENABLE"
-		(shape input)
-		(at 46.99 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7457b07e-305e-4777-826e-a5f028ac879e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.3373 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -10096,7 +10024,7 @@
 			)
 		)
 	)
-	(global_label "VFD 1 RUN ENABLE"
+	(global_label "VFD RUN INT ENABLE"
 		(shape input)
 		(at 118.11 72.39 0)
 		(fields_autoplaced yes)
@@ -10108,7 +10036,7 @@
 		)
 		(uuid "8f10d4ee-1d23-440c-8fc7-2fd431017ce7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.6009 72.39 0)
+			(at 141.2943 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10120,31 +10048,7 @@
 			)
 		)
 	)
-	(global_label "SOL10 ENABLE"
-		(shape input)
-		(at 46.99 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91777d4d-0c2b-4af9-8770-2306e270011f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0349 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SOL7 ENABLE"
+	(global_label "SOL7 INT ENABLE"
 		(shape input)
 		(at 118.11 36.83 0)
 		(fields_autoplaced yes)
@@ -10156,7 +10060,7 @@
 		)
 		(uuid "954fd48c-80c2-44ca-964d-3e0e96275d1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.8556 36.83 0)
+			(at 137.7261 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10168,7 +10072,7 @@
 			)
 		)
 	)
-	(global_label "MANUAL SWITCH SIGNAL"
+	(global_label "MANUAL SWITCH INT STATUS"
 		(shape input)
 		(at 96.52 163.83 270)
 		(fields_autoplaced yes)
@@ -10180,7 +10084,7 @@
 		)
 		(uuid "974b22b3-aa91-4b9c-90fd-135b557db3ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 189.4334 90)
+			(at 96.52 193.5457 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10120,7 @@
 			)
 		)
 	)
-	(global_label "SYSTEM SHUTDOWN SIGNAL"
+	(global_label "SYSTEM SHUTDOWN INT STATUS"
 		(shape input)
 		(at 118.11 64.77 0)
 		(fields_autoplaced yes)
@@ -10228,7 +10132,7 @@
 		)
 		(uuid "9d915956-0d2c-49f3-a0af-fc2cd587f9a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.858 64.77 0)
+			(at 150.9703 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10240,7 +10144,7 @@
 			)
 		)
 	)
-	(global_label "BLOWER SWITCH SIGNAL"
+	(global_label "BLOWER SWITCH INT STATUS"
 		(shape input)
 		(at 127 163.83 270)
 		(fields_autoplaced yes)
@@ -10252,7 +10156,7 @@
 		)
 		(uuid "a46acf1a-d0b4-41ba-80df-58bb74edbbee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 189.6147 90)
+			(at 127 193.727 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10264,55 +10168,7 @@
 			)
 		)
 	)
-	(global_label "SAS 3 ENABLE"
-		(shape input)
-		(at 46.99 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a653c2b7-987b-4ac7-b887-cef8670b2037")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.3373 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VFD 4 RUN ENABLE"
-		(shape input)
-		(at 46.99 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aabbfde3-6311-4e7a-826c-59e746594ef8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4991 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DOOR SWITCH SIGNAL"
+	(global_label "DOOR SWITCH INT STATUS"
 		(shape input)
 		(at 118.11 95.25 0)
 		(fields_autoplaced yes)
@@ -10324,7 +10180,7 @@
 		)
 		(uuid "aac64529-433b-454f-ade6-9933bc3a245b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.5967 95.25 0)
+			(at 145.709 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10360,7 +10216,7 @@
 			)
 		)
 	)
-	(global_label "LIGHT LENS SIGNAL"
+	(global_label "LIGHT LENS INT STATUS"
 		(shape input)
 		(at 118.11 92.71 0)
 		(fields_autoplaced yes)
@@ -10372,7 +10228,7 @@
 		)
 		(uuid "af1df566-5f1b-4c84-a9c5-a17f94ff0673")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.48 92.71 0)
+			(at 143.5923 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10384,7 +10240,7 @@
 			)
 		)
 	)
-	(global_label "BLOWER SWITCH SIGNAL"
+	(global_label "BLOWER SWITCH INT STATUS"
 		(shape input)
 		(at 118.11 67.31 0)
 		(fields_autoplaced yes)
@@ -10396,7 +10252,7 @@
 		)
 		(uuid "c61ff778-a3fa-4440-bd73-f65605df1082")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.8947 67.31 0)
+			(at 148.007 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10408,7 +10264,7 @@
 			)
 		)
 	)
-	(global_label "SOL2 ENABLE"
+	(global_label "SOL2 INT ENABLE"
 		(shape input)
 		(at 46.99 49.53 180)
 		(fields_autoplaced yes)
@@ -10420,7 +10276,7 @@
 		)
 		(uuid "d4815369-ebfc-4a6d-9389-f54b13aa7988")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.2444 49.53 0)
+			(at 27.3739 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10456,31 +10312,7 @@
 			)
 		)
 	)
-	(global_label "VFD 2 RUN ENABLE"
-		(shape input)
-		(at 46.99 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e321044d-5ca6-4f96-b4fc-5efbb9aa4869")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4991 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SOL1 ENABLE"
+	(global_label "SOL1 INT ENABLE"
 		(shape input)
 		(at 46.99 46.99 180)
 		(fields_autoplaced yes)
@@ -10492,7 +10324,7 @@
 		)
 		(uuid "eb7cf8b9-2884-4b6a-8eb1-098bd2a6f9c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.2444 46.99 0)
+			(at 27.3739 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10504,7 +10336,7 @@
 			)
 		)
 	)
-	(global_label "SAS 1 ENABLE"
+	(global_label "SAS INT ENABLE"
 		(shape input)
 		(at 46.99 113.03 180)
 		(fields_autoplaced yes)
@@ -10516,7 +10348,7 @@
 		)
 		(uuid "edc82b6e-a2c5-4fa6-880f-2b001fcb7cb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.3373 113.03 0)
+			(at 28.6439 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10528,7 +10360,7 @@
 			)
 		)
 	)
-	(global_label "SOL5 ENABLE"
+	(global_label "SOL5 INT ENABLE"
 		(shape input)
 		(at 118.11 87.63 0)
 		(fields_autoplaced yes)
@@ -10540,7 +10372,7 @@
 		)
 		(uuid "efab9b66-93e1-4584-9228-24afe7ecc58c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.8556 87.63 0)
+			(at 137.7261 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10552,7 +10384,7 @@
 			)
 		)
 	)
-	(global_label "SOL3 ENABLE"
+	(global_label "SOL3 INT ENABLE"
 		(shape input)
 		(at 46.99 52.07 180)
 		(fields_autoplaced yes)
@@ -10564,7 +10396,7 @@
 		)
 		(uuid "f24e5c6d-a073-493a-9a33-43fff10d27f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.2444 52.07 0)
+			(at 27.3739 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10624,7 +10456,7 @@
 			)
 		)
 	)
-	(global_label "SOL6 ENABLE"
+	(global_label "SOL6 INT ENABLE"
 		(shape input)
 		(at 118.11 90.17 0)
 		(fields_autoplaced yes)
@@ -10637,30 +10469,6 @@
 		(uuid "f7ba4e5e-607a-470c-9ff6-71f767cd106b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.8556 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "LIGHTS SIGNAL"
-		(shape input)
-		(at 118.11 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "faddc26b-8ad1-4201-ba96-43fb5734a514")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0048 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10696,7 +10504,7 @@
 			)
 		)
 	)
-	(global_label "SOL8 ENABLE"
+	(global_label "SOL8 INT ENABLE"
 		(shape input)
 		(at 118.11 39.37 0)
 		(fields_autoplaced yes)
@@ -10708,7 +10516,7 @@
 		)
 		(uuid "fe30d5a1-deb9-49ec-8b16-966589b767d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.8556 39.37 0)
+			(at 137.7261 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
