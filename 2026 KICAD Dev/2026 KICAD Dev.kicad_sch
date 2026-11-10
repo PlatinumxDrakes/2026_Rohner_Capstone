@@ -5615,16 +5615,6 @@
 		)
 		(uuid "37a4ee11-cbc8-4eb9-96f1-29677c02eb0f")
 	)
-	(polyline
-		(pts
-			(xy 27.0002 40.9702) (xy 25.7302 39.7002)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "380f2a03-8beb-45b0-a697-cfd389ad643e")
-	)
 	(wire
 		(pts
 			(xy 81.28 54.61) (xy 88.9 54.61)
@@ -5785,16 +5775,6 @@
 		)
 		(uuid "4741de2a-54fe-42e3-9b60-e38fd5f81462")
 	)
-	(polyline
-		(pts
-			(xy 25.7302 39.7002) (xy 27.0002 38.4302)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4831cffb-8a5c-459b-95a1-01cee67618e3")
-	)
 	(wire
 		(pts
 			(xy 146.05 96.52) (xy 168.91 96.52)
@@ -5885,16 +5865,6 @@
 		)
 		(uuid "56071b8a-2eaf-421d-9b6e-aea8601c78b5")
 	)
-	(polyline
-		(pts
-			(xy 33.3502 39.7002) (xy 25.7302 39.7002)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "589dfbf0-5266-4834-80fa-d6c10b78a949")
-	)
 	(wire
 		(pts
 			(xy 130.81 110.49) (xy 161.29 110.49)
@@ -5974,16 +5944,6 @@
 			(type default)
 		)
 		(uuid "61276753-a52c-4f1f-9340-1e4f771f8007")
-	)
-	(polyline
-		(pts
-			(xy 37.1602 35.8902) (xy 37.1602 38.4302)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62b8aa4e-e2e8-4938-81ea-607f1061d048")
 	)
 	(wire
 		(pts
@@ -6164,16 +6124,6 @@
 			(type default)
 		)
 		(uuid "788f61a7-43b8-41dd-8c77-99da6f3acc0f")
-	)
-	(polyline
-		(pts
-			(xy 37.1602 38.4302) (xy 38.4302 37.1602)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7974e45c-cc54-4c24-ae89-508a687719ef")
 	)
 	(wire
 		(pts
@@ -6425,16 +6375,6 @@
 		)
 		(uuid "a63eeec7-ce69-449a-bda7-67445e65cb99")
 	)
-	(polyline
-		(pts
-			(xy 30.8102 37.1602) (xy 38.4302 37.1602)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6941d0d-eb74-4683-94b8-cec578c00832")
-	)
 	(wire
 		(pts
 			(xy 40.64 184.15) (xy 40.64 203.2)
@@ -6637,16 +6577,6 @@
 	)
 	(polyline
 		(pts
-			(xy 38.4302 37.1602) (xy 37.1602 35.8902)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0a7cf20-6140-4c9f-8873-0d2f3d96fead")
-	)
-	(polyline
-		(pts
 			(xy 255.27 156.21) (xy 256.54 154.94)
 		)
 		(stroke
@@ -6764,16 +6694,6 @@
 			(type default)
 		)
 		(uuid "d5bc4d85-c7c1-4c65-a16b-8bebdb925c77")
-	)
-	(polyline
-		(pts
-			(xy 27.0002 38.4302) (xy 27.0002 40.9702)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d644b01b-eaf0-43bb-93ba-21586b8a563f")
 	)
 	(wire
 		(pts
@@ -48579,7 +48499,7 @@
 			"WwAAAABJRU5ErkJggg=="
 		)
 	)
-	(global_label "SAS 1 EXT ENABLE"
+	(global_label "SAS_1_EXT_ENABLE"
 		(shape input)
 		(at 344.17 29.21 180)
 		(fields_autoplaced yes)
@@ -48603,7 +48523,7 @@
 			)
 		)
 	)
-	(global_label "VFD 1 RUN EXT +24VDC"
+	(global_label "VFD_1_RUN_EXT_+24VDC"
 		(shape input)
 		(at 73.66 78.74 180)
 		(fields_autoplaced yes)
@@ -48627,7 +48547,7 @@
 			)
 		)
 	)
-	(global_label "VFD RUNNING EXT STATUS"
+	(global_label "VFD_RUNNING_EXT_STATUS"
 		(shape input)
 		(at 215.9 113.03 180)
 		(fields_autoplaced yes)
@@ -48651,7 +48571,7 @@
 			)
 		)
 	)
-	(global_label "VFD 1 RUN EXT ENABLE"
+	(global_label "VFD_1_RUN_EXT_ENABLE"
 		(shape input)
 		(at 73.66 91.44 180)
 		(fields_autoplaced yes)
@@ -48675,7 +48595,7 @@
 			)
 		)
 	)
-	(global_label "VFD 1 RUN EXT +24VDC"
+	(global_label "VFD_1_RUN_EXT_+24VDC"
 		(shape input)
 		(at 215.9 102.87 180)
 		(fields_autoplaced yes)
@@ -48699,7 +48619,7 @@
 			)
 		)
 	)
-	(global_label "BLOWER SWITCH EXT STATUS"
+	(global_label "BLOWER_SWITCH_EXT_STATUS"
 		(shape input)
 		(at 344.17 177.8 180)
 		(fields_autoplaced yes)
@@ -48723,7 +48643,7 @@
 			)
 		)
 	)
-	(global_label "VFD 1 RUN EXT ENABLE"
+	(global_label "VFD_1_RUN_EXT_ENABLE"
 		(shape input)
 		(at 215.9 107.95 180)
 		(fields_autoplaced yes)
@@ -48747,7 +48667,7 @@
 			)
 		)
 	)
-	(global_label "LIGHT LENS EXT STATUS"
+	(global_label "LIGHT_LENS_EXT_STATUS"
 		(shape input)
 		(at 332.74 97.79 180)
 		(fields_autoplaced yes)
@@ -48771,7 +48691,7 @@
 			)
 		)
 	)
-	(global_label "SOL1 EXT ENABLE"
+	(global_label "SOL1_EXT_ENABLE"
 		(shape input)
 		(at 344.17 48.26 180)
 		(fields_autoplaced yes)
@@ -48795,7 +48715,7 @@
 			)
 		)
 	)
-	(global_label "MANUAL SWITCH EXT STATUS"
+	(global_label "MANUAL_SWITCH_EXT_STATUS"
 		(shape input)
 		(at 344.17 139.7 180)
 		(fields_autoplaced yes)
@@ -48819,7 +48739,7 @@
 			)
 		)
 	)
-	(global_label "AUTO SWITCH EXT STATUS"
+	(global_label "AUTO_SWITCH_EXT_STATUS"
 		(shape input)
 		(at 344.17 144.78 180)
 		(fields_autoplaced yes)
@@ -48843,7 +48763,7 @@
 			)
 		)
 	)
-	(global_label "VFD RUNNING EXT STATUS"
+	(global_label "VFD_RUNNING_EXT_STATUS"
 		(shape input)
 		(at 138.43 104.14 0)
 		(fields_autoplaced yes)
@@ -48867,7 +48787,7 @@
 			)
 		)
 	)
-	(global_label "SPRAY AIR INTERLOCK EXT STATUS"
+	(global_label "SPRAY_AIR_INTERLOCK_EXT_STATUS"
 		(shape input)
 		(at 344.17 78.74 180)
 		(fields_autoplaced yes)
@@ -48891,7 +48811,7 @@
 			)
 		)
 	)
-	(global_label "SYSTEM SHUTDOWN EXT STATUS"
+	(global_label "SYSTEM_SHUTDOWN_EXT_STATUS"
 		(shape input)
 		(at 345.44 217.17 180)
 		(fields_autoplaced yes)
@@ -48915,7 +48835,7 @@
 			)
 		)
 	)
-	(global_label "DOOR SWITCH EXT STATUS"
+	(global_label "DOOR_SWITCH_EXT_STATUS"
 		(shape input)
 		(at 334.01 121.92 180)
 		(fields_autoplaced yes)
@@ -48939,7 +48859,7 @@
 			)
 		)
 	)
-	(global_label "RESET BUTTON EXT STATUS"
+	(global_label "RESET_BUTTON_EXT_STATUS"
 		(shape input)
 		(at 344.17 161.29 180)
 		(fields_autoplaced yes)
