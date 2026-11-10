@@ -1603,6 +1603,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Custom_Power_Symbol_Lib:+24VDC_FUSED"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24VDC_FUSED"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24VDC_FUSED\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+24VDC_FUSED_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24VDC_FUSED_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom_Power_Symbol_Lib:+24VDC_SWITCHED"
 			(power global)
 			(pin_numbers
@@ -4579,7 +4718,7 @@
 	)
 	(rectangle
 		(start 191.77 15.24)
-		(end 283.21 88.9)
+		(end 265.43 88.9)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4711,7 +4850,7 @@
 		)
 		(uuid "3a2c8efb-4bc2-4171-b535-a8841da98414")
 	)
-	(text "Label Convention:\n\nINT			-	Isolated Internal signal or enable that is \n				manipulated/read only on the PCB. Would generally \n				be on the 3.3V side of the circuit.\n\nEXT			-	Non-Isolated External signal or enable that is \n				manipulated/read on the field side. Would generally \n				be on the 24V side of the circuit.\n\nStatus Signal -	Binary (High/Low) signal entering into the \n				microprocessor/PCB/ext.\n\n					example - light lens has 24v going through all light \n					lens and if they are all good then a 24 v signal goes \n					back to microprocessor as an input. Hence the name \n					\"LIGHT LENS STATUS\"\n\nSignal		-	Continuous (analog/pwm/ext.) signal entering into the \n				microprocessor/PCB/ext.\n\n					example - Pressure transmitter is being read by the \n					microprocessor and can read pressure from 0 to 1\" \n					watercolumn. Hence the name \n					\"PRESSURE TRANSMITTER SIGNAL\"\n\nGNDA		-	Analog Ground. attached to the negative end of the 24vdc \n				power supply feeding out timer board.\n\nGNDD		-	Digital Ground. attached to the negative end of the 3.3vdc \n				power supply feeding our 3.3v side of the timer board.\n\nGNDS		-	Signal Ground. attached to the Ground end of the MODBUS/ \n				I2C/Whatever Protocall we use to communicater to other \n				timer boiards.\n\nEnable - 		signal exiting the microprocessor\n\n					example - VFD RUN signal is sent out of the microprocessor\n					which goes to the mosfet which send signal to vfd to \n					run. Hence the name \n					\"VFD RUN ENABLE\""
+	(text "Label Convention:\n\nINT			-	Isolated Internal signal or enable that is \n				manipulated/read only on the PCB. Would generally \n				be on the 3.3V side of the circuit.\n\nEXT			-	Non-Isolated External signal or enable that is \n				manipulated/read on the field side. Would generally \n				be on the 24V side of the circuit.\n\nStatus Signal -	Binary (High/Low) signal entering into the \n				microprocessor/PCB/ext.\n\n					example - light lens has 24v going through all light \n					lens and if they are all good then a 24 v signal goes \n					back to microprocessor as an input. Hence the name \n					\"LIGHT LENS STATUS\"\n\nSignal		-	Continuous (analog/pwm/ext.) signal entering into the \n				microprocessor/PCB/ext.\n\n					example - Pressure transmitter is being read by the \n					microprocessor and can read pressure from 0 to 1\" \n					watercolumn. Hence the name \n					\"PRESSURE TRANSMITTER SIGNAL\"\n\nGNDA		-	Analog Ground. attached to the negative end of the 24vdc \n				power supply feeding out timer board.\n\nGNDD		-	Digital Ground. attached to the negative end of the 3.3vdc \n				power supply feeding our 3.3v side of the timer board.\n\nGNDS		-	Signal Ground. attached to the Ground end of the MODBUS/ \n				I2C/Whatever Protocall we use to communicater to other \n				timer boiards.\n\nEnable - 		Signal exiting the microprocessor/PCB/ext.\n\n					example - VFD RUN signal is sent out of the microprocessor\n					which goes to the mosfet which send signal to vfd to \n					run. Hence the name \n					\"VFD RUN ENABLE\""
 		(exclude_from_sim no)
 		(at 195.58 17.78 0)
 		(effects
@@ -5637,6 +5776,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 217.17) (xy 353.06 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394aa3b9-cac0-4256-9efd-5186c680dcfd")
+	)
+	(wire
+		(pts
 			(xy 90.17 78.74) (xy 90.17 85.09)
 		)
 		(stroke
@@ -6547,16 +6696,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 217.17) (xy 353.06 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c96ea4-d30b-4a30-b46e-e4e58658b7e9")
-	)
-	(wire
-		(pts
 			(xy 295.91 224.79) (xy 298.45 227.33)
 		)
 		(stroke
@@ -6587,7 +6726,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 217.17) (xy 300.99 217.17)
+			(xy 300.99 217.17) (xy 317.5 217.17)
 		)
 		(stroke
 			(width 0)
@@ -48811,30 +48950,6 @@
 			)
 		)
 	)
-	(global_label "SYSTEM_SHUTDOWN_EXT_STATUS"
-		(shape input)
-		(at 345.44 217.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5239895-fa03-4c48-9c1d-9647d2d39b98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.3983 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DOOR_SWITCH_EXT_STATUS"
 		(shape input)
 		(at 334.01 121.92 180)
@@ -49228,6 +49343,85 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54"
 					(reference "F21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Power_Symbol_Lib:+24VDC_FUSED")
+		(at 337.82 217.17 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f181939-1491-4a46-9f9f-6b9c9132db7f")
+		(property "Reference" "#PWR023"
+			(at 341.63 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24VDC_FUSED"
+			(at 334.01 217.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24VDC_FUSED\""
+			(at 337.82 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ca81376-9195-4e78-9f2d-42f85d50a42a")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
