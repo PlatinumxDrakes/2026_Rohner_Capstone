@@ -6165,6 +6165,16 @@
 		)
 		(uuid "219cab90-f02f-41d4-a108-109a2e2a6a8e")
 	)
+	(text "clamping vs fast"
+		(exclude_from_sim no)
+		(at 184.15 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f2c7ba5-63e0-4e6c-8df4-21b93301a926")
+	)
 	(text "CIRCUIT REPEATED FOR ALL 8 SOLENOIDS AND SAS ENABLE"
 		(exclude_from_sim no)
 		(at 253.746 46.228 0)
@@ -6204,6 +6214,16 @@
 			)
 		)
 		(uuid "88c8b233-ce12-4d37-9d7d-8d85e13254c4")
+	)
+	(text "4j45 femal plugs for modbus and terminals"
+		(exclude_from_sim no)
+		(at 110.49 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95cdb581-990c-49d5-9710-bc656c1a2631")
 	)
 	(text "POTENTIALLY NOT THIS ONE, MAY RUN ON LOGIC 3.3V"
 		(exclude_from_sim no)
@@ -11280,86 +11300,6 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_Power_Symbol_Lib:+24VDC_SWITCHED")
-		(at 59.69 146.05 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7147c30e-3af9-4071-bb8f-7fde2d7a40f1")
-		(property "Reference" "#PWR092"
-			(at 55.88 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24VDC_SWITCHED"
-			(at 63.5 146.0499 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24VDC_SWITCHED\""
-			(at 59.69 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "819e2895-539c-4663-acaa-f46c400df456")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
