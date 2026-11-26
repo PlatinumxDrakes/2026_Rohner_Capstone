@@ -14,6 +14,269 @@
 		(comment 4 "DUCUMENTATION ONE NOTE LINK:")
 	)
 	(lib_symbols
+		(symbol "10k Ohm 0.1W Resistor:CRCW040210K0FKED"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CRCW040210K0FKED"
+				(at -7.63 -5.0866 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CRCW040210K0FKED:RESC1005X40N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/CRCW040210K0FKED_Vishay.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "Resistor;Thick Film;10 Kilohms;0.063 W;1%;SMT;0402;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW040210K0FKED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/CRCW040210K0FKED_Vishay.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Vishay Dale"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "CRCW040210K0FKED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/CRCW040210K0FKED/Dale/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CRCW040210K0FKED_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "1S7BE_0303S3U:1S7BE_0303S3U"
 			(pin_names
 				(offset 1.016)
@@ -272,6 +535,855 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1k ohm resistor:RC0402FR-071KL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RC0402FR-071KL"
+				(at -5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RC0402FR-071KL:RESC1005X40N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-071KL_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-071KL_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "RC0402FR-071KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/RC0402FR-071KL/Yageo/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "RC0402FR-071KL_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4.7k Ohm 0.25W resistor:RC1206FR-074K7L"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RC1206FR-074K7L"
+				(at -7.63 -5.0866 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RC1206FR-074K7L:RESC3116X65N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC1206FR-074K7L_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC1206FR-074K7L_Yageo.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "RC1206FR-074K7L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/RC1206FR-074K7L/Yageo/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "RC1206FR-074K7L_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5V Red LED:LTST-C190KRKT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -2.0351 4.0703 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C190KRKT"
+				(at -2.0337 -3.8132 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LTST-C190KRKT:LEDC1608X35N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/LTST-C190KRKT_Lite-On_Inc..pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/LTST-C190KRKT_Lite-On_Inc..pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Lite-On Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "LTST-C190KRKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/LTST-C190KRKT/Lite-On/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "LTST-C190KRKT_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.302) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.429) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.032) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3005,207 +4117,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5083,6 +5994,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "M7 Diode:M7"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "M7"
+				(at -5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "M7:DIO_M7"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/M7_Diotec_Semiconductor.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "Diode, SMA, 1000V, 1A, 150°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/M7_Diotec_Semiconductor.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Diotec Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "M7"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "2025-03-20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/M7/Diotec/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "M7_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TLP291-4_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6167,7 +7341,7 @@
 	)
 	(text "clamping vs fast"
 		(exclude_from_sim no)
-		(at 184.15 88.9 0)
+		(at 182.88 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6177,23 +7351,13 @@
 	)
 	(text "CIRCUIT REPEATED FOR ALL 8 SOLENOIDS AND SAS ENABLE"
 		(exclude_from_sim no)
-		(at 253.746 46.228 0)
+		(at 161.29 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "5fe99ecc-cd95-4e85-84d5-8efe83e88b27")
-	)
-	(text "POTENTIALLY NOT THIS ONE, MAY RUN ON LOGIC 3.3V"
-		(exclude_from_sim no)
-		(at 223.52 104.648 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "62356588-9654-4ca5-a95c-44b3991380fd")
 	)
 	(text "Modbus Outputs/Input \n(For communicating \nwith other timer \nboards)"
 		(exclude_from_sim no)
@@ -6225,39 +7389,9 @@
 		)
 		(uuid "95cdb581-990c-49d5-9710-bc656c1a2631")
 	)
-	(text "POTENTIALLY NOT THIS ONE, MAY RUN ON LOGIC 3.3V"
-		(exclude_from_sim no)
-		(at 223.266 109.728 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "96f6b6a6-af53-447d-8ea5-58a3bf3e83d9")
-	)
-	(text "POTENTIALLY NOT THIS ONE, MAY RUN ON LOGIC 3.3V"
-		(exclude_from_sim no)
-		(at 223.266 119.634 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cf3567e6-ea3a-4f42-a331-1de5fc481238")
-	)
-	(text "POTENTIALLY NOT THIS ONE, MAY RUN ON LOGIC 3.3V"
-		(exclude_from_sim no)
-		(at 223.52 114.808 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d287e110-7206-4d70-a4c8-cd906bfd4d5d")
-	)
 	(text "REPEATED FOR THE FOLLOWING 4 OR 8 STATUS'S"
 		(exclude_from_sim no)
-		(at 270.764 77.47 0)
+		(at 269.494 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6307,10 +7441,10 @@
 		(uuid "b7c2ec8e-6880-4062-9a0a-b945753f4e28")
 	)
 	(junction
-		(at 194.31 45.72)
+		(at 234.95 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0104cae7-59bb-4820-abaa-c38bd1ab8ce8")
+		(uuid "02d7ae0b-bb57-4e49-bd5b-30a64d9fca2a")
 	)
 	(junction
 		(at 217.17 186.69)
@@ -6319,13 +7453,19 @@
 		(uuid "03270e36-c6a8-43b5-a88b-646fc61b46d0")
 	)
 	(junction
-		(at 201.93 77.47)
+		(at 200.66 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0667e3ae-a48c-42a7-aedb-913e8b6f0cbe")
 	)
 	(junction
-		(at 172.72 85.09)
+		(at 201.93 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e5cab92-6bfc-4932-8a65-6d526447f430")
+	)
+	(junction
+		(at 171.45 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0eed432e-7b8d-4996-8522-d8fe09aaae23")
@@ -6337,7 +7477,13 @@
 		(uuid "1816bae7-acdd-42a3-998e-70a1a229bf38")
 	)
 	(junction
-		(at 201.93 85.09)
+		(at 189.23 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cc6d5f8-4843-4dbb-83e0-e61d8a1f754e")
+	)
+	(junction
+		(at 200.66 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2422854d-e5f0-4015-aae1-5f29c47d40dc")
@@ -6349,25 +7495,25 @@
 		(uuid "36266d6a-0875-4dc2-944c-9500a8bf74ea")
 	)
 	(junction
-		(at 172.72 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "397b686e-63cc-4963-8ab0-fb624d270560")
-	)
-	(junction
 		(at 184.15 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e196378-6a31-4d01-91c1-c5f65cdb84f0")
 	)
 	(junction
-		(at 185.42 85.09)
+		(at 184.15 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5245ce9f-4416-481c-9373-9ddbe985c5ec")
 	)
 	(junction
-		(at 203.2 35.56)
+		(at 189.23 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "606a5153-970b-4875-ad98-3460d3f4eb99")
+	)
+	(junction
+		(at 201.93 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "640a9c95-89d8-47a7-94f6-f272ac622f37")
@@ -6379,13 +7525,13 @@
 		(uuid "69f6a042-20c8-4e9c-bc97-b4e0533a925f")
 	)
 	(junction
-		(at 185.42 77.47)
+		(at 184.15 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e1b122c-7ff1-4229-87cb-d0773ad7bb24")
 	)
 	(junction
-		(at 212.09 35.56)
+		(at 227.33 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f17fe14-313d-4692-9bfe-cc1afb94b0ad")
@@ -6395,6 +7541,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "862fceac-53f0-49cd-8ea5-7466a3000039")
+	)
+	(junction
+		(at 234.95 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86f1f206-5b9a-42e0-b2a2-cde257e658ff")
 	)
 	(junction
 		(at 262.89 261.62)
@@ -6415,10 +7567,10 @@
 		(uuid "989ec8b6-9150-494c-9a97-60e9695cefcb")
 	)
 	(junction
-		(at 185.42 35.56)
+		(at 227.33 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "beff91b4-8dfc-48e1-a121-345b442d43c8")
+		(uuid "ae3c3c7e-e4ad-41f4-993f-a1cd0201a632")
 	)
 	(junction
 		(at 172.72 238.76)
@@ -6433,16 +7585,10 @@
 		(uuid "da08976a-8223-4fcb-8657-db007a12dbad")
 	)
 	(junction
-		(at 172.72 77.47)
+		(at 171.45 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dea99e43-11ec-4d70-8a01-56f1b8ceab90")
-	)
-	(junction
-		(at 212.09 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f30d1f7f-b1e6-4597-b8fb-d8e0bdd189d9")
 	)
 	(junction
 		(at 236.22 223.52)
@@ -6458,33 +7604,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 44.45) (xy 172.72 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0021885c-686a-4323-aa7c-b335e46c0591")
-	)
-	(wire
-		(pts
-			(xy 165.1 50.8) (xy 168.91 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019ed024-4db0-40b3-b024-3e833d6123c5")
-	)
-	(wire
-		(pts
-			(xy 201.93 35.56) (xy 203.2 35.56)
+			(xy 200.66 41.91) (xy 201.93 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "020bdc56-c01e-4801-8fe3-29355b00dab1")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020f25a2-f3cc-4ced-9658-421c5ee5ab1d")
 	)
 	(wire
 		(pts
@@ -6498,23 +7634,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 50.8) (xy 168.91 33.02)
+			(xy 162.56 57.15) (xy 163.83 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07968c54-097f-4265-8143-184ed9eef1cf")
-	)
-	(wire
-		(pts
-			(xy 203.2 55.88) (xy 212.09 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1471afb7-3438-4144-8751-aed295734670")
+		(uuid "13e29623-1f43-41b5-a6d3-f4709f7885d4")
 	)
 	(wire
 		(pts
@@ -6548,13 +7674,23 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 35.56) (xy 217.17 35.56)
+			(xy 227.33 41.91) (xy 234.95 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "22e44492-701b-4d45-a5d5-b2f394191319")
+	)
+	(wire
+		(pts
+			(xy 201.93 43.18) (xy 201.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2316ae8e-7a67-4aea-ab5e-c0fd99d68930")
 	)
 	(wire
 		(pts
@@ -6568,7 +7704,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 77.47) (xy 205.74 77.47)
+			(xy 163.83 49.53) (xy 163.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e30befa-056c-4e03-8c8a-a4395a8a9722")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 204.47 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6588,16 +7734,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 33.02) (xy 172.72 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3719d3ec-dfcb-4d99-a65b-12fb508c8fcb")
-	)
-	(wire
-		(pts
 			(xy 193.04 186.69) (xy 194.31 186.69)
 		)
 		(stroke
@@ -6605,16 +7741,6 @@
 			(type default)
 		)
 		(uuid "37a5b516-2b7f-4e16-91e0-f25c4d2e50d2")
-	)
-	(wire
-		(pts
-			(xy 147.32 50.8) (xy 149.86 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ab3e9d7-103a-48e8-b927-a0f7b6b3feb0")
 	)
 	(wire
 		(pts
@@ -6648,7 +7774,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 55.88) (xy 212.09 49.53)
+			(xy 146.05 57.15) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421881fe-a421-4417-8179-46a97cb755d0")
+	)
+	(wire
+		(pts
+			(xy 227.33 62.23) (xy 227.33 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6658,7 +7794,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 55.88) (xy 194.31 55.88)
+			(xy 162.56 62.23) (xy 189.23 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6688,7 +7824,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 77.47) (xy 172.72 77.47)
+			(xy 168.91 109.22) (xy 171.45 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6728,16 +7864,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 45.72) (xy 203.2 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "553410f9-d8e3-475a-93b0-01f6d2aef73a")
-	)
-	(wire
-		(pts
 			(xy 236.22 222.25) (xy 236.22 223.52)
 		)
 		(stroke
@@ -6748,33 +7874,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 20.32) (xy 172.72 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59acdd80-82ee-406b-8e60-08dfdeaf4583")
-	)
-	(wire
-		(pts
-			(xy 185.42 35.56) (xy 191.77 35.56)
+			(xy 184.15 41.91) (xy 189.23 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59afe1b3-bf14-4286-ad7d-8eac636dbe7f")
-	)
-	(wire
-		(pts
-			(xy 185.42 38.1) (xy 185.42 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59dac152-43e4-420c-8728-8d930838725f")
 	)
 	(wire
 		(pts
@@ -6808,7 +7914,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 35.56) (xy 203.2 38.1)
+			(xy 201.93 41.91) (xy 201.93 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6868,7 +7974,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 20.32) (xy 185.42 35.56)
+			(xy 184.15 26.67) (xy 184.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6888,6 +7994,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 46.99) (xy 227.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77eec63e-dc86-48c0-b9b4-9b9a0f5e8a4e")
+	)
+	(wire
+		(pts
 			(xy 248.92 213.36) (xy 248.92 215.9)
 		)
 		(stroke
@@ -6898,13 +8014,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 41.91) (xy 212.09 35.56)
+			(xy 189.23 41.91) (xy 190.5 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bd23996-ce0b-46fb-8176-091bc6846ee7")
+		(uuid "7d787c57-5010-40cb-8095-22f3bc28a333")
 	)
 	(wire
 		(pts
@@ -6918,13 +8034,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 20.32) (xy 172.72 20.32)
+			(xy 162.56 26.67) (xy 163.83 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f34be4b-9f85-4132-a2c8-7f0734c5422f")
+	)
+	(wire
+		(pts
+			(xy 227.33 62.23) (xy 227.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e1e726-5111-4bf7-b4a0-902e2e98968b")
 	)
 	(wire
 		(pts
@@ -6938,7 +8064,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 170.18 82.55)
+			(xy 168.91 116.84) (xy 168.91 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6958,13 +8084,33 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 85.09) (xy 217.17 85.09)
+			(xy 171.45 116.84) (xy 215.9 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "890d3919-9aed-4d51-b79d-4a58cd240bde")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 125.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1bffda-5720-454c-8a65-296c9104356c")
+	)
+	(wire
+		(pts
+			(xy 201.93 63.5) (xy 201.93 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9c2ad2-09e2-4420-b250-ab339f294d07")
 	)
 	(wire
 		(pts
@@ -6988,7 +8134,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 77.47) (xy 190.5 77.47)
+			(xy 171.45 109.22) (xy 189.23 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6998,23 +8144,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 172.72 85.09)
+			(xy 168.91 116.84) (xy 171.45 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96c9da9e-2e5f-4075-ab6f-cc3f1113f9ba")
-	)
-	(wire
-		(pts
-			(xy 203.2 35.56) (xy 212.09 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "991e9e9b-aa05-43cc-9a63-cfbcdd6690c6")
 	)
 	(wire
 		(pts
@@ -7058,6 +8194,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 26.67) (xy 163.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f74edb-aa84-41c1-bd91-7f4a98aed663")
+	)
+	(wire
+		(pts
 			(xy 233.68 213.36) (xy 236.22 213.36)
 		)
 		(stroke
@@ -7088,6 +8234,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 41.91) (xy 237.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e16b05-d58a-4fc9-957c-eaebdafc36d3")
+	)
+	(wire
+		(pts
 			(xy 242.57 186.69) (xy 245.11 186.69)
 		)
 		(stroke
@@ -7098,23 +8254,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 77.47) (xy 154.94 77.47)
+			(xy 152.4 109.22) (xy 153.67 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a718083d-1151-4a7b-ae80-4dbdf83fca0a")
-	)
-	(wire
-		(pts
-			(xy 194.31 43.18) (xy 194.31 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81f7b28-bdec-480f-9df4-bc529bb0bd15")
 	)
 	(wire
 		(pts
@@ -7128,7 +8274,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 77.47) (xy 217.17 77.47)
+			(xy 212.09 109.22) (xy 215.9 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7158,13 +8304,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 45.72) (xy 194.31 55.88)
+			(xy 193.04 49.53) (xy 193.04 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8b0c416-0239-458e-8617-7437c1372b89")
+	)
+	(wire
+		(pts
+			(xy 201.93 82.55) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a42401-c071-4b81-949f-2d8377d13c4a")
 	)
 	(wire
 		(pts
@@ -7188,6 +8344,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 83.82) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb21ff24-9ebf-410c-9004-38ed34ecde31")
+	)
+	(wire
+		(pts
 			(xy 190.5 251.46) (xy 195.58 251.46)
 		)
 		(stroke
@@ -7208,16 +8374,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 33.02) (xy 172.72 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4fb7c8c-d45b-4119-bc33-c1ef21db8587")
-	)
-	(wire
-		(pts
 			(xy 209.55 194.31) (xy 209.55 191.77)
 		)
 		(stroke
@@ -7228,23 +8384,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 45.72) (xy 194.31 45.72)
+			(xy 189.23 62.23) (xy 193.04 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cad50289-dce5-41be-bd54-60d61a13d9b3")
-	)
-	(wire
-		(pts
-			(xy 135.89 50.8) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb1e41a-d3a1-4a0a-aba0-8c01772ba7af")
+		(uuid "cd89162b-27d6-43ff-9f8d-994fbc62d017")
 	)
 	(wire
 		(pts
@@ -7278,23 +8424,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 20.32) (xy 185.42 20.32)
+			(xy 189.23 26.67) (xy 184.15 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5834e66-dd17-4283-87cf-784eece49b8d")
-	)
-	(wire
-		(pts
-			(xy 172.72 31.75) (xy 172.72 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5baf870-4ddf-419d-a39a-f27256496338")
 	)
 	(wire
 		(pts
@@ -7328,6 +8464,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 41.91) (xy 234.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8fd99cc-c856-45e2-b5c5-3d606bbafcec")
+	)
+	(wire
+		(pts
 			(xy 236.22 213.36) (xy 248.92 213.36)
 		)
 		(stroke
@@ -7338,7 +8484,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 77.47) (xy 146.05 77.47)
+			(xy 140.97 109.22) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7348,7 +8494,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 55.88) (xy 214.63 55.88)
+			(xy 227.33 62.23) (xy 234.95 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7376,9 +8522,39 @@
 		)
 		(uuid "f49ce667-7252-4b81-b8ba-b4b4684ef66b")
 	)
+	(wire
+		(pts
+			(xy 234.95 62.23) (xy 236.22 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f525dd77-1e1b-418e-ad00-3a199b7807f8")
+	)
+	(wire
+		(pts
+			(xy 201.93 41.91) (xy 227.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f691f408-d3c4-4dc3-8948-b96af0de8a0b")
+	)
+	(wire
+		(pts
+			(xy 234.95 55.88) (xy 234.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe77ae67-c2d2-4af6-8895-124ab91189d1")
+	)
 	(global_label "MANUAL_SWITCH_EXT_STATUS"
 		(shape input)
-		(at 251.46 104.14 0)
+		(at 250.19 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7388,7 +8564,7 @@
 		)
 		(uuid "14256a81-5ac1-42cc-a4ae-7ee87d27c902")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.3571 104.14 0)
+			(at 280.0871 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +8626,7 @@
 	)
 	(global_label "VFD_RUNNING_EXT_STATUS"
 		(shape input)
-		(at 251.46 99.06 0)
+		(at 250.19 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7460,7 +8636,7 @@
 		)
 		(uuid "24e7658a-9f50-4eeb-81c6-18abe1a2eca2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.1196 99.06 0)
+			(at 277.8496 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7594,7 +8770,7 @@
 	)
 	(global_label "LIGHT_LENS_EXT_STATUS"
 		(shape input)
-		(at 217.17 77.47 0)
+		(at 215.9 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7604,7 +8780,7 @@
 		)
 		(uuid "32241c02-b76b-463b-af03-4d895fcf567e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.8337 77.47 0)
+			(at 241.5637 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7834,7 +9010,7 @@
 	)
 	(global_label "SOL1_INT_ENABLE"
 		(shape input)
-		(at 135.89 50.8 180)
+		(at 124.46 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7844,7 +9020,7 @@
 		)
 		(uuid "604700eb-c463-43cc-b4d9-26beeaad8bf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.2739 50.8 0)
+			(at 104.8439 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7906,7 +9082,7 @@
 	)
 	(global_label "BLOWER_SWITCH_EXT_STATUS"
 		(shape input)
-		(at 251.46 119.38 0)
+		(at 250.19 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7916,7 +9092,7 @@
 		)
 		(uuid "65b67e35-a534-404c-a5b3-f37fdf92cc12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.5384 119.38 0)
+			(at 280.2684 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +9154,7 @@
 	)
 	(global_label "SPRAY_AIR_INTERLOCK_EXT_STATUS"
 		(shape input)
-		(at 251.46 83.82 0)
+		(at 250.19 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7988,7 +9164,7 @@
 		)
 		(uuid "7c805619-163c-47b5-a1c5-2301dce58a56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.2838 83.82 0)
+			(at 286.0138 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8074,7 +9250,7 @@
 	)
 	(global_label "AUTO_SWITCH_EXT_STATUS"
 		(shape input)
-		(at 251.46 109.22 0)
+		(at 250.19 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8084,7 +9260,7 @@
 		)
 		(uuid "a6affeaf-d060-40b6-bfe4-dbf1198bac09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.7566 109.22 0)
+			(at 277.4866 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8242,7 +9418,7 @@
 	)
 	(global_label "DOOR_SWITCH_EXT_STATUS"
 		(shape input)
-		(at 251.46 93.98 0)
+		(at 250.19 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8252,7 +9428,7 @@
 		)
 		(uuid "ca525510-5a32-44a6-9c7f-497e59d7da57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.2404 93.98 0)
+			(at 277.9704 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8266,7 +9442,7 @@
 	)
 	(global_label "RESET_BUTTON_EXT_STATUS"
 		(shape input)
-		(at 251.46 114.3 0)
+		(at 250.19 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8276,7 +9452,7 @@
 		)
 		(uuid "cd043976-a623-4622-b667-7cc7545d1458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.1474 114.3 0)
+			(at 278.8774 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,7 +9538,7 @@
 	)
 	(global_label "LIGHT_LENS_INT_STATUS"
 		(shape input)
-		(at 142.24 77.47 180)
+		(at 140.97 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8372,7 +9548,7 @@
 		)
 		(uuid "da9001d3-1e90-4b79-9d35-afe24e276301")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.7577 77.47 0)
+			(at 115.4877 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8386,7 +9562,7 @@
 	)
 	(global_label "LIGHT_LENS_EXT_STATUS"
 		(shape input)
-		(at 251.46 88.9 0)
+		(at 250.19 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8396,7 +9572,7 @@
 		)
 		(uuid "e149b69f-4b5c-4743-8b91-0bb1eb5bf200")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.1237 88.9 0)
+			(at 275.8537 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8434,7 +9610,7 @@
 	)
 	(global_label "SOL1_EXT_ENABLE"
 		(shape input)
-		(at 217.17 35.56 0)
+		(at 237.49 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8444,7 +9620,7 @@
 		)
 		(uuid "f17be1ac-854c-4127-94bf-75636747cac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.2093 35.56 0)
+			(at 257.5293 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8501,107 +9677,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 212.09 45.72 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "051d1055-230a-430c-aeba-32337cce7c0b")
-		(property "Reference" "D7"
-			(at 218.44 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 215.9 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 212.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M7 SMD diode"
-			(at 220.726 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 212.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 212.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6bfb33e8-cf2a-4271-9817-31b96daef3c6")
-		)
-		(pin "1"
-			(uuid "3f612ef0-1ec2-4f34-9046-d1868218f8ac")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "D7")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -8685,6 +9760,139 @@
 		)
 	)
 	(symbol
+		(lib_id "4.7k Ohm 0.25W resistor:RC1206FR-074K7L")
+		(at 201.93 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c7c56ec-0af2-4bdb-b4f8-68fb487b308f")
+		(property "Reference" "R18"
+			(at 205.74 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RC1206FR-074K7L"
+			(at 205.74 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC1206FR-074K7L:RESC3116X65N"
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC1206FR-074K7L_Yageo.pdf"
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC1206FR-074K7L_Yageo.pdf"
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RC1206FR-074K7L"
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RC1206FR-074K7L/Yageo/view-part/"
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e2a1a827-e7e4-4657-a23d-1d358962dab1")
+		)
+		(pin "2"
+			(uuid "f16bd7c9-4567-4274-b370-ae1b069132db")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_Power_Symbol_Lib:+24VDC_SWITCHED")
 		(at 59.69 125.73 270)
 		(mirror x)
@@ -8758,85 +9966,6 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 172.72 44.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "11585a01-0b6a-4ef0-99ef-6e9a0edcef38")
-		(property "Reference" "#PWR0100"
-			(at 172.72 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 172.7199 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 172.72 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b6e4a35-313a-4655-a667-d3ae32a351f6")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -9138,7 +10267,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 217.17 85.09 90)
+		(at 215.9 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9149,7 +10278,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d72498b-6eb4-40b4-8c78-954d4ac38910")
 		(property "Reference" "#PWR077"
-			(at 223.52 85.09 0)
+			(at 222.25 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,7 +10289,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 220.98 85.0899 90)
+			(at 219.71 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9171,7 +10300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 85.09 0)
+			(at 215.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,7 +10311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 85.09 0)
+			(at 215.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9193,7 +10322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 217.17 85.09 0)
+			(at 215.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9300,7 +10429,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Power_Symbol_Lib:+24VDC_SWITCHED")
-		(at 214.63 55.88 270)
+		(at 236.22 62.23 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9311,7 +10440,7 @@
 		(dnp no)
 		(uuid "1f6fee28-f9f9-46bf-9e6e-d1b1845ef2a6")
 		(property "Reference" "#PWR0115"
-			(at 210.82 55.88 0)
+			(at 232.41 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9322,7 +10451,7 @@
 			)
 		)
 		(property "Value" "+24VDC_SWITCHED"
-			(at 218.44 55.8799 90)
+			(at 240.03 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9333,7 +10462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 55.88 0)
+			(at 236.22 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9344,7 +10473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 55.88 0)
+			(at 236.22 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9355,7 +10484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24VDC_SWITCHED\""
-			(at 214.63 55.88 0)
+			(at 236.22 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9372,6 +10501,269 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10k Ohm 0.1W Resistor:CRCW040210K0FKED")
+		(at 189.23 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20b1ec21-c864-4aaa-a541-0eaed6dc61fe")
+		(property "Reference" "R6"
+			(at 185.42 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW040210K0FKED"
+			(at 185.42 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRCW040210K0FKED:RESC1005X40N"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/CRCW040210K0FKED_Vishay.pdf"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Resistor;Thick Film;10 Kilohms;0.063 W;1%;SMT;0402;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW040210K0FKED"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/CRCW040210K0FKED_Vishay.pdf"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "CRCW040210K0FKED"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/CRCW040210K0FKED/Dale/view-part/"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "c256c23b-dc8d-4146-ab9b-780045e21c5e")
+		)
+		(pin "1"
+			(uuid "88cca0b2-e4eb-40e5-ab79-7968777a8b41")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5V Red LED:LTST-C190KRKT")
+		(at 201.93 72.39 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21d04915-40fd-4bb6-97b9-6336e827c5f6")
+		(property "Reference" "D16"
+			(at 194.31 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190KRKT"
+			(at 196.85 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTST-C190KRKT:LEDC1608X35N"
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/LTST-C190KRKT_Lite-On_Inc..pdf"
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/LTST-C190KRKT_Lite-On_Inc..pdf"
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "LTST-C190KRKT"
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/LTST-C190KRKT/Lite-On/view-part/"
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "d3d4226e-5cc8-4e33-9f7a-0ec22a419695")
+		)
+		(pin "A"
+			(uuid "3f5fc239-a666-4893-85be-19078253808e")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -9456,88 +10848,6 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 38.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27af075a-4a3a-4220-ad9e-27404a1ef04b")
-		(property "Reference" "R37"
-			(at 175.26 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 174.498 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1aed0708-8320-41fe-8761-48915301e7ca")
-		)
-		(pin "2"
-			(uuid "5ce24905-0ca1-4253-ac61-1adb86a7d1e8")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9787,7 +11097,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 172.72 81.28 270)
+		(at 171.45 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9798,7 +11108,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ff914d2-f2d6-4ac8-b724-e2c5cac724a0")
 		(property "Reference" "D3"
-			(at 175.26 80.0099 90)
+			(at 173.99 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9809,7 +11119,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 175.26 82.5499 90)
+			(at 173.99 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9820,7 +11130,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 172.72 81.28 0)
+			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9831,7 +11141,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 172.72 81.28 0)
+			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9842,7 +11152,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 172.72 81.28 0)
+			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9853,7 +11163,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 172.72 81.28 0)
+			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9864,7 +11174,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 81.28 0)
+			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10132,7 +11442,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 149.86 55.88 270)
+		(at 146.05 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10143,7 +11453,7 @@
 		(fields_autoplaced yes)
 		(uuid "502dab8e-8430-4e46-8d00-cea1585eea31")
 		(property "Reference" "#PWR0106"
-			(at 143.51 55.88 0)
+			(at 139.7 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +11464,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 146.05 55.8799 90)
+			(at 142.24 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10165,7 +11475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 55.88 0)
+			(at 146.05 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10176,7 +11486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 55.88 0)
+			(at 146.05 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10187,7 +11497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 149.86 55.88 0)
+			(at 146.05 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10210,91 +11520,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 203.2 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5456d529-e54b-487e-952c-188253876fa6")
-		(property "Reference" "R38"
-			(at 205.74 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 205.74 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.422 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 203.2 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f46d39a-0196-471d-a765-a81c422a3472")
-		)
-		(pin "2"
-			(uuid "b5a97b65-5f50-4ffd-b2fb-88b62baf54aa")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "TLP291-4_1")
 		(lib_id "Isolator:TLP291-4")
-		(at 157.48 53.34 0)
+		(at 154.94 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10304,7 +11532,7 @@
 		(dnp no)
 		(uuid "54bb7c4e-55c4-43c1-89c3-81433837f0ab")
 		(property "Reference" "U10"
-			(at 157.48 44.45 0)
+			(at 154.94 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10314,7 +11542,7 @@
 			)
 		)
 		(property "Value" "TLP291-4"
-			(at 157.48 46.99 0)
+			(at 154.94 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10324,7 +11552,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
-			(at 152.4 58.42 0)
+			(at 149.86 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10337,7 +11565,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4"
-			(at 157.48 53.34 0)
+			(at 154.94 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10349,7 +11577,7 @@
 			)
 		)
 		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
-			(at 157.48 53.34 0)
+			(at 154.94 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10654,7 +11882,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 190.5 20.32 90)
+		(at 189.23 26.67 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10665,7 +11893,7 @@
 		(dnp no)
 		(uuid "5a85411b-2066-4728-a8f6-1afe07ac65dc")
 		(property "Reference" "#PWR099"
-			(at 196.85 20.32 0)
+			(at 195.58 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10676,7 +11904,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 194.31 20.3201 90)
+			(at 193.04 26.6701 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10687,7 +11915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 20.32 0)
+			(at 189.23 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10698,7 +11926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 20.32 0)
+			(at 189.23 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10709,7 +11937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 190.5 20.32 0)
+			(at 189.23 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10726,88 +11954,6 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 27.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cf48e60-42ad-4cdd-b69c-a53e6dd90ff5")
-		(property "Reference" "R34"
-			(at 175.26 26.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 175.26 29.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 174.498 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 172.72 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a90fc90-c6f5-4b86-a581-dc0889436190")
-		)
-		(pin "2"
-			(uuid "1f38f499-f4b4-46b9-8670-58934361664f")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -10893,8 +12039,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 143.51 50.8 90)
+		(lib_id "M7 Diode:M7")
+		(at 227.33 52.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10903,89 +12049,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68978942-3c31-494a-94a4-8143ec069058")
-		(property "Reference" "R35"
-			(at 143.51 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 143.51 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 52.578 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58a13b82-28a8-49bc-8f55-10abb362e2e0")
-		)
-		(pin "2"
-			(uuid "8b6f1545-f96f-4440-a574-a84eba71f0b2")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 203.2 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b7ea26c-6fa4-4a0f-8de0-14cb34ff0b3e")
-		(property "Reference" "D21"
-			(at 205.74 49.2124 90)
+		(uuid "6b38ee69-865f-42fa-be1d-2156fcb95b84")
+		(property "Reference" "D9"
+			(at 229.87 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10995,8 +12061,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 205.74 51.7524 90)
+		(property "Value" "M7"
+			(at 229.87 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11006,8 +12072,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 203.2 52.07 0)
+		(property "Footprint" "M7:DIO_M7"
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11015,10 +12081,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 203.2 52.07 0)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/M7_Diotec_Semiconductor.pdf"
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,10 +12093,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 203.2 52.07 0)
+		(property "Description" "Diode, SMA, 1000V, 1A, 150°C"
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,10 +12105,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 52.07 0)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/M7_Diotec_Semiconductor.pdf"
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11048,18 +12117,91 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "1"
-			(uuid "d4f4c4d4-6643-4c5a-89f3-e86691c9737c")
+		(property "MANUFACTURER" "Diotec Semiconductor"
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "2"
-			(uuid "f1c19e84-1b72-478c-b9f5-1cac33f62467")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.5mm"
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "M7"
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "2025-03-20"
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/M7/Diotec/view-part/"
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A"
+			(uuid "f53bc855-09b6-4ef2-8c88-1a47014c392a")
+		)
+		(pin "C"
+			(uuid "bc8b8b8e-c51c-40fb-a823-056445ac371d")
 		)
 		(instances
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "D21")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -11224,90 +12366,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 185.42 41.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7065109d-9bb3-4ab7-a600-94f1dfd72e5b")
-		(property "Reference" "R33"
-			(at 187.96 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 187.96 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.198 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdc7df83-24c5-469f-960f-baba995ba073")
-		)
-		(pin "2"
-			(uuid "9c3a6fad-892d-4144-8f11-f71fb4dcb2ef")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
-		(at 209.55 77.47 0)
+		(at 208.28 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11317,7 +12377,7 @@
 		(dnp no)
 		(uuid "721338cd-c7b1-4f76-9176-9977b95a0b0f")
 		(property "Reference" "D6"
-			(at 209.55 71.12 0)
+			(at 208.28 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11327,7 +12387,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 209.55 73.66 0)
+			(at 208.28 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11337,7 +12397,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 209.55 77.47 0)
+			(at 208.28 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11348,7 +12408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 77.47 0)
+			(at 208.28 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11359,7 +12419,7 @@
 			)
 		)
 		(property "Description" "M7 SMD diode"
-			(at 209.55 68.834 0)
+			(at 208.28 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11369,7 +12429,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 77.47 0)
+			(at 208.28 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,7 +12440,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 77.47 0)
+			(at 208.28 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11929,7 +12989,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ26A")
-		(at 201.93 81.28 270)
+		(at 200.66 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11940,7 +13000,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f0f7867-bc7d-4993-a575-d82216352aa8")
 		(property "Reference" "D2"
-			(at 204.47 80.0099 90)
+			(at 203.2 111.7599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11952,7 +13012,7 @@
 			)
 		)
 		(property "Value" "SMAJ26A"
-			(at 204.47 82.5499 90)
+			(at 203.2 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11963,7 +13023,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 196.85 81.28 0)
+			(at 195.58 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11974,7 +13034,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 201.93 80.01 0)
+			(at 200.66 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11985,7 +13045,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
-			(at 201.93 81.28 0)
+			(at 200.66 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12091,7 +13151,7 @@
 	(symbol
 		(lib_name "TLP291-4_1")
 		(lib_id "Isolator:TLP291-4")
-		(at 162.56 80.01 0)
+		(at 161.29 111.76 0)
 		(mirror y)
 		(unit 2)
 		(body_style 1)
@@ -12103,7 +13163,7 @@
 		(fields_autoplaced yes)
 		(uuid "97ebffba-158c-4c49-ae20-b16c7139356a")
 		(property "Reference" "U7"
-			(at 162.56 71.12 0)
+			(at 161.29 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12113,7 +13173,7 @@
 			)
 		)
 		(property "Value" "TLP291-4"
-			(at 162.56 73.66 0)
+			(at 161.29 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12123,7 +13183,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
-			(at 167.64 85.09 0)
+			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12136,7 +13196,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4"
-			(at 162.56 80.01 0)
+			(at 161.29 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12148,7 +13208,7 @@
 			)
 		)
 		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
-			(at 162.56 80.01 0)
+			(at 161.29 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12217,7 +13277,7 @@
 	)
 	(symbol
 		(lib_id "IRLR2905TRPBF - NMOS:IRLR2905TRPBF")
-		(at 196.85 38.1 270)
+		(at 195.58 44.45 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12226,10 +13286,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9bb7248b-3d9a-4f5d-a535-e6fac191a176")
 		(property "Reference" "T1"
-			(at 196.85 29.21 90)
+			(at 193.04 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12239,7 +13298,7 @@
 			)
 		)
 		(property "Value" "IRLR2905TRPBF"
-			(at 196.85 31.75 90)
+			(at 193.04 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12249,7 +13308,7 @@
 			)
 		)
 		(property "Footprint" "IRLR2905TRPBF:TO252-3"
-			(at 196.85 38.1 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12261,7 +13320,7 @@
 			)
 		)
 		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/IRLR2905TRPBF_Infineon_Technologies.pdf"
-			(at 196.85 38.1 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12273,7 +13332,7 @@
 			)
 		)
 		(property "Description" "MOSFET, Power,N-Ch,VDSS 55V,RDS(ON) 0.027Ohm,ID 42A,D-Pak (TO-252AA),PD 110W | Infineon IRLR2905TRPBF"
-			(at 196.85 38.1 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12285,7 +13344,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/IRLR2905TRPBF_Infineon_Technologies.pdf"
-			(at 196.85 38.1 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12297,7 +13356,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 196.85 38.1 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12309,7 +13368,7 @@
 			)
 		)
 		(property "MPN" "IRLR2905TRPBF"
-			(at 196.85 38.1 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +13380,7 @@
 			)
 		)
 		(property "Package" "TO-252 Infineon"
-			(at 196.85 38.1 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12333,7 +13392,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/IRLR2905TRPBF/Infineon/view-part/"
-			(at 196.85 38.1 0)
+			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12446,7 +13505,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Power_Symbol_Lib:+24VDC_SWITCHED")
-		(at 167.64 20.32 90)
+		(at 162.56 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12456,7 +13515,7 @@
 		(dnp no)
 		(uuid "9ee1ea74-007f-4a93-b7fe-0d6cd9124264")
 		(property "Reference" "#PWR0114"
-			(at 171.45 20.32 0)
+			(at 166.37 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12467,7 +13526,7 @@
 			)
 		)
 		(property "Value" "+24VDC_SWITCHED"
-			(at 163.83 20.3199 90)
+			(at 158.75 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12478,7 +13537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 20.32 0)
+			(at 162.56 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12489,7 +13548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 20.32 0)
+			(at 162.56 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12500,7 +13559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24VDC_SWITCHED\""
-			(at 167.64 20.32 0)
+			(at 162.56 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12760,7 +13819,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 77.47 90)
+		(at 193.04 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12771,7 +13830,7 @@
 		(fields_autoplaced yes)
 		(uuid "a71da8f1-a29b-4b3e-975d-3488c0f15abc")
 		(property "Reference" "R27"
-			(at 194.31 71.12 90)
+			(at 193.04 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12781,7 +13840,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 194.31 73.66 90)
+			(at 193.04 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12791,7 +13850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 79.248 90)
+			(at 193.04 110.998 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12802,7 +13861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 77.47 0)
+			(at 193.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12813,7 +13872,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 77.47 0)
+			(at 193.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13281,7 +14340,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 154.94 82.55 270)
+		(at 153.67 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13292,7 +14351,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0686dd4-eef8-409a-b1d5-7e01cbbeaf03")
 		(property "Reference" "#PWR080"
-			(at 148.59 82.55 0)
+			(at 147.32 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13303,7 +14362,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 151.13 82.5499 90)
+			(at 149.86 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13314,7 +14373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 82.55 0)
+			(at 153.67 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13325,7 +14384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 82.55 0)
+			(at 153.67 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13336,7 +14395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 154.94 82.55 0)
+			(at 153.67 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13360,7 +14419,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 77.47 90)
+		(at 148.59 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13371,7 +14430,7 @@
 		(fields_autoplaced yes)
 		(uuid "c41df218-2528-4be0-b248-4aec72ba11fc")
 		(property "Reference" "R62"
-			(at 149.86 71.12 90)
+			(at 148.59 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13381,7 +14440,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 149.86 73.66 90)
+			(at 148.59 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13391,7 +14450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 79.248 90)
+			(at 148.59 110.998 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13402,7 +14461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 77.47 0)
+			(at 148.59 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13413,7 +14472,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 77.47 0)
+			(at 148.59 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14041,6 +15100,173 @@
 		)
 	)
 	(symbol
+		(lib_id "1k ohm resistor:RC0402FR-071KL")
+		(at 135.89 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de563d26-d8a2-43c1-a87d-cfaf87cb28f0")
+		(property "Reference" "R17"
+			(at 135.89 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-071KL"
+			(at 135.89 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RC0402FR-071KL:RESC1005X40N"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-071KL_Yageo.pdf"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-071KL_Yageo.pdf"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.4mm"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "12"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RC0402FR-071KL/Yageo/view-part/"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "b569d8f0-7860-4ae8-824f-3daa0a1face0")
+		)
+		(pin "2"
+			(uuid "758d4f5d-9007-4002-8afd-fd6739fe2337")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDS")
 		(at 281.94 252.73 90)
 		(unit 1)
@@ -14120,8 +15346,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ26A")
+		(at 234.95 52.07 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3a3cbc5-aa08-4675-abb7-8735e92c775b")
+		(property "Reference" "D7"
+			(at 237.49 53.3401 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ26A"
+			(at 237.49 50.8001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 229.87 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 234.95 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
+			(at 234.95 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db284e43-193c-44fd-8778-c5aba5de13f5")
+		)
+		(pin "2"
+			(uuid "3a7d5b49-f9cf-4478-9d5f-9b84daaf335e")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 185.42 81.28 180)
+		(at 184.15 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14132,7 +15441,7 @@
 		(fields_autoplaced yes)
 		(uuid "e62b0098-a075-4537-99e8-8685831e21b8")
 		(property "Reference" "R26"
-			(at 187.96 80.0099 0)
+			(at 186.69 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14143,7 +15452,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 187.96 82.5499 0)
+			(at 186.69 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14154,7 +15463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.198 81.28 90)
+			(at 185.928 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14165,7 +15474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 81.28 0)
+			(at 184.15 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14176,7 +15485,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 185.42 81.28 0)
+			(at 184.15 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14196,6 +15505,138 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10k Ohm 0.1W Resistor:CRCW040210K0FKED")
+		(at 163.83 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec39aa01-3841-4d47-972d-887c8b6a0ea5")
+		(property "Reference" "R4"
+			(at 160.02 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW040210K0FKED"
+			(at 160.02 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRCW040210K0FKED:RESC1005X40N"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/CRCW040210K0FKED_Vishay.pdf"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Resistor;Thick Film;10 Kilohms;0.063 W;1%;SMT;0402;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW040210K0FKED"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/CRCW040210K0FKED_Vishay.pdf"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "CRCW040210K0FKED"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/CRCW040210K0FKED/Dale/view-part/"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "c94ad122-b101-410f-a9fb-8842074e4d73")
+		)
+		(pin "1"
+			(uuid "37e880e5-e378-4139-9564-6e7d0e4c81b5")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "R4")
 					(unit 1)
 				)
 			)
