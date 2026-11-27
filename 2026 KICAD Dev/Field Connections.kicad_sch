@@ -821,6 +821,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "470 Ohm:RC0603FR-07470RL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 11.43 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "470 Ω"
+				(at 14.224 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RC0603FR-07470RL:RESC1608X55"
+				(at 0.508 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC0603FR-07470RL_Yageo.pdf"
+				(at 0.508 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+				(at 0.508 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC0603FR-07470RL_Yageo.pdf"
+				(at 0.508 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Yageo"
+				(at 0.508 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "RC0603FR-07470RL"
+				(at 21.844 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/RC0603FR-07470RL/Yageo/view-part/"
+				(at 0.508 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "RC0603FR-07470RL_0_1"
+				(rectangle
+					(start 2.54 1.016)
+					(end -2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RC0603FR-07470RL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CRCW040210K0FKED_1"
 			(pin_names
 				(offset 1.016)
@@ -7292,6 +7459,16 @@
 		)
 		(uuid "c9765a1f-e5cc-4645-8fed-2e8791af2fc5")
 	)
+	(text "Move R6 and R10 (4.7 kΩ) to the protected side\n\ntermination resistor jumper-selectable\n\n10k pull on rw\n\nCheck the 1S7BE_0303S3U datasheet for recommended input/output capacitance (often 4.7 µF-10 µF alongside 0.1 µF) and verify its light-load output voltage at IL3585E's ~3-4 mA idle draw (IL3585E tolerates up to 5.5V on VDD2, which gives good headroom, though unregulated 1W converters can creep high with near-zero load-a 1 kΩ dummy load across +VOUT/GNDS tames that if needed"
+		(exclude_from_sim no)
+		(at 452.12 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d22e0c55-b300-4682-9de5-e70dc7f4524c")
+	)
 	(text "Status Inputs - Reapeated For 8 Status's"
 		(exclude_from_sim no)
 		(at 266.7 63.5 0)
@@ -7334,16 +7511,16 @@
 		(uuid "b7c2ec8e-6880-4062-9a0a-b945753f4e28")
 	)
 	(junction
-		(at 391.16 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02d7ae0b-bb57-4e49-bd5b-30a64d9fca2a")
-	)
-	(junction
 		(at 360.68 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04c5a6ae-b6df-42b8-9657-134592662cd1")
+	)
+	(junction
+		(at 363.22 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07ad1617-3e52-4025-aa89-9a4253b028dd")
 	)
 	(junction
 		(at 342.9 81.28)
@@ -7416,12 +7593,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bf616d3-9e74-4ce0-a014-aa67bafb501e")
-	)
-	(junction
-		(at 391.16 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86f1f206-5b9a-42e0-b2a2-cde257e658ff")
 	)
 	(junction
 		(at 372.11 200.66)
@@ -7531,7 +7702,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 124.46) (xy 360.68 124.46)
+			(xy 353.695 121.92) (xy 360.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7548,6 +7719,16 @@
 			(type default)
 		)
 		(uuid "115c6872-196c-403b-97c4-0e00bfa31f93")
+	)
+	(wire
+		(pts
+			(xy 330.2 121.92) (xy 343.535 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f4bd9b-5371-4d8c-9493-b5251e535145")
 	)
 	(wire
 		(pts
@@ -7608,6 +7789,16 @@
 			(type default)
 		)
 		(uuid "217106e1-074c-49c1-858a-56470a1aeddc")
+	)
+	(wire
+		(pts
+			(xy 363.22 26.67) (xy 363.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230af80f-d770-49ba-a4ac-d2b1f5afcde4")
 	)
 	(wire
 		(pts
@@ -7761,6 +7952,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 17.78) (xy 375.92 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5440061c-875e-4ea1-9699-9b655dbafd19")
+	)
+	(wire
+		(pts
 			(xy 325.12 129.54) (xy 322.58 129.54)
 		)
 		(stroke
@@ -7781,7 +7982,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 27.94) (xy 391.16 27.94)
+			(xy 381 27.94) (xy 393.7 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8001,6 +8202,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 121.92) (xy 330.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7739cf-549f-48d0-a653-77f38d081c4b")
+	)
+	(wire
+		(pts
 			(xy 355.6 185.42) (xy 355.6 182.88)
 		)
 		(stroke
@@ -8131,16 +8342,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 27.94) (xy 393.7 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e16b05-d58a-4fc9-957c-eaebdafc36d3")
-	)
-	(wire
-		(pts
 			(xy 375.92 191.77) (xy 391.16 191.77)
 		)
 		(stroke
@@ -8168,16 +8369,6 @@
 			(type default)
 		)
 		(uuid "aee82a09-2692-4927-87c5-2b3e87e59c04")
-	)
-	(wire
-		(pts
-			(xy 391.16 27.94) (xy 391.16 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b30cf221-ef14-4654-a0b6-ddff6ff14dc1")
 	)
 	(wire
 		(pts
@@ -8241,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 43.18) (xy 391.16 43.18)
+			(xy 381 43.18) (xy 394.335 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8258,16 +8449,6 @@
 			(type default)
 		)
 		(uuid "becfbb0d-c9de-475b-af60-ff3a9b0e4026")
-	)
-	(wire
-		(pts
-			(xy 330.2 124.46) (xy 342.9 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2dac5b5-057e-4dfa-9912-3690e4a7e956")
 	)
 	(wire
 		(pts
@@ -8341,16 +8522,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 17.78) (xy 340.36 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5834e66-dd17-4283-87cf-784eece49b8d")
-	)
-	(wire
-		(pts
 			(xy 353.06 177.8) (xy 345.44 177.8)
 		)
 		(stroke
@@ -8361,7 +8532,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 132.08) (xy 360.68 132.08)
+			(xy 330.2 132.08) (xy 344.805 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8431,6 +8602,26 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 17.78) (xy 363.22 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daddda0c-41fc-4568-b0f3-691f1ad8581e")
+	)
+	(wire
+		(pts
+			(xy 352.425 132.08) (xy 360.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0650a91-f5d2-4d6c-b3b2-3f8c7f70da23")
+	)
+	(wire
+		(pts
 			(xy 76.2 95.25) (xy 59.69 95.25)
 		)
 		(stroke
@@ -8448,16 +8639,6 @@
 			(type default)
 		)
 		(uuid "f49ce667-7252-4b81-b8ba-b4b4684ef66b")
-	)
-	(wire
-		(pts
-			(xy 391.16 43.18) (xy 394.335 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f525dd77-1e1b-418e-ad00-3a199b7807f8")
 	)
 	(wire
 		(pts
@@ -8481,6 +8662,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 17.78) (xy 363.22 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc20b8f-f761-447f-a657-0aa22c669da1")
+	)
+	(wire
+		(pts
 			(xy 356.87 73.66) (xy 360.68 73.66)
 		)
 		(stroke
@@ -8488,16 +8679,6 @@
 			(type default)
 		)
 		(uuid "fe21cbeb-5d09-4135-b867-86246f84c669")
-	)
-	(wire
-		(pts
-			(xy 391.16 39.37) (xy 391.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe77ae67-c2d2-4af6-8895-124ab91189d1")
 	)
 	(global_label "MANUAL_SWITCH_EXT_STATUS"
 		(shape input)
@@ -8861,7 +9042,7 @@
 	)
 	(global_label "VFD_RUN_EXT_+24VDC"
 		(shape input)
-		(at 360.68 124.46 0)
+		(at 360.68 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8871,7 +9052,7 @@
 		)
 		(uuid "53ce1610-65ef-4f65-9298-176766cb672f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 384.8923 124.46 0)
+			(at 384.8923 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10451,7 +10632,7 @@
 	)
 	(symbol
 		(lib_id "M7 Diode:M7")
-		(at 347.98 124.46 180)
+		(at 348.615 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10462,7 +10643,7 @@
 		(fields_autoplaced yes)
 		(uuid "23e6bbbb-6a4b-4db2-82f1-0472fc30b871")
 		(property "Reference" "D13"
-			(at 347.98 118.11 0)
+			(at 348.615 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10472,7 +10653,7 @@
 			)
 		)
 		(property "Value" "M7"
-			(at 347.98 120.65 0)
+			(at 348.615 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10482,7 +10663,7 @@
 			)
 		)
 		(property "Footprint" "M7:DIO_M7"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10494,7 +10675,7 @@
 			)
 		)
 		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/M7_Diotec_Semiconductor.pdf"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10506,7 +10687,7 @@
 			)
 		)
 		(property "Description" "Diode, SMA, 1000V, 1A, 150°C"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10518,7 +10699,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/M7_Diotec_Semiconductor.pdf"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10530,7 +10711,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diotec Semiconductor"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10542,7 +10723,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.5mm"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10554,7 +10735,7 @@
 			)
 		)
 		(property "MPN" "M7"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10566,7 +10747,7 @@
 			)
 		)
 		(property "PARTREV" "2025-03-20"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10578,7 +10759,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/M7/Diotec/view-part/"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10590,7 +10771,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 347.98 124.46 0)
+			(at 348.615 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10611,6 +10792,86 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_PTC")
+		(at 348.615 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25522be8-f2b8-4f5e-9007-462195174754")
+		(property "Reference" "TH5"
+			(at 347.98 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor_PTC"
+			(at 348.2975 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+			(at 343.535 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 348.615 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
+			(at 348.615 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "110425f1-bbf6-4717-8c43-272767b27e4b")
+		)
+		(pin "2"
+			(uuid "47d4ed3d-1d7a-42e6-97a7-f24bff55516a")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "TH5")
 					(unit 1)
 				)
 			)
@@ -12396,7 +12657,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 344.17 17.78 90)
+		(at 375.92 17.78 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12407,7 +12668,7 @@
 		(dnp no)
 		(uuid "5a85411b-2066-4728-a8f6-1afe07ac65dc")
 		(property "Reference" "#PWR099"
-			(at 350.52 17.78 0)
+			(at 382.27 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12418,7 +12679,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 347.98 17.7801 90)
+			(at 379.73 17.7801 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12429,7 +12690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 17.78 0)
+			(at 375.92 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12440,7 +12701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 17.78 0)
+			(at 375.92 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12451,7 +12712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 344.17 17.78 0)
+			(at 375.92 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13041,6 +13302,135 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "470 Ohm:RC0603FR-07470RL")
+		(at 299.72 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7203faea-4130-47dc-a3ae-669d93e0647b")
+		(property "Reference" "R2"
+			(at 299.72 33.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470 Ω"
+			(at 299.72 36.195 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RC0603FR-07470RL:RESC1608X55"
+			(at 300.228 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC0603FR-07470RL_Yageo.pdf"
+			(at 300.228 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 300.228 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC0603FR-07470RL_Yageo.pdf"
+			(at 300.228 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 300.228 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RC0603FR-07470RL"
+			(at 299.72 37.465 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RC0603FR-07470RL/Yageo/view-part/"
+			(at 300.228 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "99dd9511-4c55-43b3-93e8-6a12b85e4622")
+		)
+		(pin "2"
+			(uuid "a8ffedf7-e7f8-48e5-a5a9-d4bac77ce5ee")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -13905,6 +14295,135 @@
 		)
 	)
 	(symbol
+		(lib_id "470 Ohm:RC0603FR-07470RL")
+		(at 299.72 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "981f686c-5f48-4ea4-8e14-3fe0ce0be911")
+		(property "Reference" "R17"
+			(at 299.72 117.475 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470 Ω"
+			(at 299.72 120.015 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RC0603FR-07470RL:RESC1608X55"
+			(at 300.228 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC0603FR-07470RL_Yageo.pdf"
+			(at 300.228 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 300.228 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC0603FR-07470RL_Yageo.pdf"
+			(at 300.228 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 300.228 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RC0603FR-07470RL"
+			(at 299.72 121.285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RC0603FR-07470RL/Yageo/view-part/"
+			(at 300.228 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "ef657043-880a-4ba5-b3f8-a5031594bf33")
+		)
+		(pin "2"
+			(uuid "7bf28411-b761-4337-a99a-09c76085ea5f")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IRLR2905TRPBF - NMOS:IRLR2905TRPBF")
 		(at 350.52 30.48 270)
 		(mirror x)
@@ -14567,172 +15086,6 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
 					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "RC0402FR-071KL_1")
-		(lib_id "1k ohm resistor:RC0402FR-071KL")
-		(at 299.72 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4d90690-3ad7-433b-9d69-28ce1bd31849")
-		(property "Reference" "R66"
-			(at 299.72 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 KΩ"
-			(at 299.72 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RC0402FR-071KL:RESC1005X40N"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-071KL_Yageo.pdf"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-071KL_Yageo.pdf"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Yageo"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.4mm"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "RC0402FR-071KL"
-			(at 299.72 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "PARTREV" "12"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SOURCE_URL" "https://www.snapeda.com/parts/RC0402FR-071KL/Yageo/view-part/"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 299.72 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "dd00c352-928d-4966-9897-8791c7930f2c")
-		)
-		(pin "1"
-			(uuid "f13809d2-5d89-41db-a977-afa317ac76ea")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -15965,172 +16318,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RC0402FR-071KL_1")
-		(lib_id "1k ohm resistor:RC0402FR-071KL")
-		(at 299.72 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de9934af-0eea-428e-a130-15ddb914a3cc")
-		(property "Reference" "R30"
-			(at 299.72 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 KΩ"
-			(at 299.72 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RC0402FR-071KL:RESC1005X40N"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-071KL_Yageo.pdf"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-071KL_Yageo.pdf"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Yageo"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.4mm"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "RC0402FR-071KL"
-			(at 299.72 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "PARTREV" "12"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SOURCE_URL" "https://www.snapeda.com/parts/RC0402FR-071KL/Yageo/view-part/"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 299.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "008ee27a-160f-43ed-b61d-36bb645fc8b2")
-		)
-		(pin "1"
-			(uuid "af73b794-d43a-472a-adac-beeec165e3e7")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/fadee438-6352-4e28-b835-2dda7d715959"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDS")
 		(at 391.16 191.77 90)
 		(unit 1)
@@ -16211,7 +16398,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ26A")
-		(at 391.16 35.56 270)
+		(at 363.22 22.86 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16220,9 +16407,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e3a3cbc5-aa08-4675-abb7-8735e92c775b")
+		(uuid "e454ab5a-b015-4b3e-8d90-678030a43572")
 		(property "Reference" "D7"
-			(at 393.7 36.8301 90)
+			(at 365.76 24.1301 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16234,7 +16421,7 @@
 			)
 		)
 		(property "Value" "SMAJ26A"
-			(at 393.7 34.2901 90)
+			(at 365.76 21.5901 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16245,7 +16432,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 386.08 35.56 0)
+			(at 358.14 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16256,7 +16443,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 391.16 36.83 0)
+			(at 363.22 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16267,7 +16454,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
-			(at 391.16 35.56 0)
+			(at 363.22 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16278,10 +16465,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "db284e43-193c-44fd-8778-c5aba5de13f5")
+			(uuid "c5f1691a-fc0a-491f-a67b-f663aeff14f1")
 		)
 		(pin "2"
-			(uuid "3a7d5b49-f9cf-4478-9d5f-9b84daaf335e")
+			(uuid "9a9b7091-6e0d-4179-bfa0-e4d50efe8db8")
 		)
 		(instances
 			(project "2026 KICAD Dev"

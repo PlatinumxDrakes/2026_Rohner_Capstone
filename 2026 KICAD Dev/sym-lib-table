@@ -17,4 +17,5 @@
 	(lib (name "0.1µF") (type "KiCad") (uri "${KIPRJMOD}/Libraries/CL21B104KBCNNNC") (options "") (descr ""))
 	(lib (name "47 kOhm") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ERJ_2RKF4702X") (options "") (descr ""))
 	(lib (name "1µF 50V") (type "KiCad") (uri "${KIPRJMOD}/Libraries/GRT188R61H105KE13D") (options "") (descr ""))
+	(lib (name "470 Ohm") (type "KiCad") (uri "${KIPRJMOD}/Libraries/RC0603FR_07470RL") (options "") (descr ""))
 )

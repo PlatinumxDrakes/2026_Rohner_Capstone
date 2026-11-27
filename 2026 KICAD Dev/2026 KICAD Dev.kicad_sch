@@ -5525,7 +5525,7 @@
 		)
 		(uuid "372ae477-474a-4e27-9c52-1ac9b73d284a")
 	)
-	(text "SAS INTERLOCK"
+	(text "SAS INTERLOCK, not 120VAC, is 24VDC"
 		(exclude_from_sim no)
 		(at 357.378 36.322 0)
 		(effects
