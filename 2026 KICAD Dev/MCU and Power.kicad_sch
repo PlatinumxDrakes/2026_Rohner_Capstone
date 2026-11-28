@@ -2259,6 +2259,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SMAJ26CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ26CA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ26CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ26CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ERJ2RKF4702X_1"
 			(pin_names
 				(offset 1.016)
@@ -7125,16 +7303,6 @@
 		)
 		(uuid "0f39674e-549a-4794-8207-62e02f07d8eb")
 	)
-	(text "move tvs"
-		(exclude_from_sim no)
-		(at 464.82 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "17526883-c86e-4d57-a763-89e222137232")
-	)
 	(text "SYS. SHUTDOWN/FIRE SYS. INT."
 		(exclude_from_sim no)
 		(at 304.8 130.175 0)
@@ -7861,7 +8029,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 139.7) (xy 355.6 139.7)
+			(xy 355.6 139.7) (xy 384.81 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7948,16 +8116,6 @@
 			(type default)
 		)
 		(uuid "17e19e61-4d1e-4c5b-9214-d5baca4d1c67")
-	)
-	(wire
-		(pts
-			(xy 388.62 139.7) (xy 391.16 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190da483-5546-4b7a-bad7-91a785016264")
 	)
 	(wire
 		(pts
@@ -9341,7 +9499,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 139.7) (xy 401.32 139.7)
+			(xy 392.43 139.7) (xy 396.24 139.7)
 		)
 		(stroke
 			(width 0)
@@ -15391,110 +15549,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 384.81 139.7 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "11bdae4d-4262-4111-a4a3-6870cf0ef33c")
-		(property "Reference" "D49"
-			(at 384.81 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 384.81 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 384.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 384.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 384.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 384.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 384.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "947f6eeb-9e9f-46d7-a696-b959d5ca07fe")
-		)
-		(pin "1"
-			(uuid "453c62e3-9d3f-41b6-966a-01bcd8eb595a")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/1bd95a32-5334-4d46-a6ac-8b75d8285080"
-					(reference "D49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
-		(at 401.32 139.7 90)
+		(at 396.24 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15505,7 +15561,7 @@
 		(fields_autoplaced yes)
 		(uuid "11da608c-a4ae-418a-bb17-6864519bd2a1")
 		(property "Reference" "#PWR0220"
-			(at 407.67 139.7 0)
+			(at 402.59 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15516,7 +15572,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 405.13 139.6999 90)
+			(at 400.05 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15527,7 +15583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 401.32 139.7 0)
+			(at 396.24 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15538,7 +15594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 139.7 0)
+			(at 396.24 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15549,7 +15605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 401.32 139.7 0)
+			(at 396.24 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20287,6 +20343,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ26CA")
+		(at 388.62 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c6ed173-c888-47e3-b4b1-b1bf8e34a20e")
+		(property "Reference" "D4"
+			(at 388.62 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMAJ26CA"
+			(at 388.62 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 388.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 388.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
+			(at 388.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8f931f9b-d317-4401-ac73-71d0b0c9800e")
+		)
+		(pin "1"
+			(uuid "d3562926-0a20-4e11-93fc-f3b7eb81ee3e")
+		)
+		(instances
+			(project "2026 KICAD Dev"
+				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/1bd95a32-5334-4d46-a6ac-8b75d8285080"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 317.5 196.85 270)
 		(unit 1)
@@ -24668,89 +24804,6 @@
 			(project "2026 KICAD Dev"
 				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/1bd95a32-5334-4d46-a6ac-8b75d8285080"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ26A")
-		(at 394.97 139.7 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe328966-84af-4dc5-9535-b0ca2599b927")
-		(property "Reference" "D37"
-			(at 393.6999 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ26A"
-			(at 390.525 136.525 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 394.97 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 393.7 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
-			(at 394.97 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a90fa03-3a93-4302-ba0f-8b86ae2fb1e3")
-		)
-		(pin "2"
-			(uuid "e99dbb9e-6df6-42ad-bd33-4d56ffa0e770")
-		)
-		(instances
-			(project "2026 KICAD Dev"
-				(path "/46b3abaf-addb-4cb1-944c-2dd36cb95e54/1bd95a32-5334-4d46-a6ac-8b75d8285080"
-					(reference "D37")
 					(unit 1)
 				)
 			)
